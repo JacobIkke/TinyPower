@@ -77,7 +77,7 @@ But watchout that you don't break components on the other side with big screwdri
 
 ## TinyPower Layout R1
 ![App Screenshot](https://i.postimg.cc/k58bzTJ4/Pin-layout-tinypower-v1-b.jpg)
-- The pin discriptions are correct, there is one mistake in the slickscreeen, VUSB and VCC are swapped on left side. 
+- The pin discriptions are correct, there is one mistake in the silkscreen, VUSB and VCC are swapped on the left side. 
 
 ## Example codes
 I will make list of good sites/repos/etc with example code for Attiny1604
