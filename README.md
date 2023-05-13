@@ -18,12 +18,16 @@ With megaTinycore you can add support for attiny1604 to Arduino and output HEX f
 
 The megaTinyCore Github has also some interesting information about the tinyAVR series. 
 
-## How to program tinyAVR?
+## How to program TinyPower Board?
 We have couple of option to program the TinyPower Board
 - USB-to-Serial
 - Arduino with UPDI sketch : https://github.com/ElTangas/jtag2updi + avrdude
 - Microchip ICEII programmer
 - pyupdi with USB-to-Serial converter
+
+Need only two wires, GND and UPDI data wire. 
+- You need to connect GND of the programer to GND of the TinyPower board
+- And connect updi program pin to PA0 of the TinyPower board. 
 
 
 ### How to program the fuses 
