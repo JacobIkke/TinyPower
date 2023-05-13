@@ -3,6 +3,8 @@
 
 Welcome to the Github page of TinyPower dev board. This page is dedicated to the development board designed for tinyAVR micro-controllers. You will find some resources, and I will provide detailed information about the TinyPower board itself, including its (relative) impressive feature set and specifications. 
 
+![App Screenshot](https://i.postimg.cc/W1YQJ3jg/pull-pcb-out1.jpg)
+
 Most parts of this page are for people that don't know AVRs jet, if you are familiar with AVRs most of it you probably already know, but there is also some  info about the board, pin layout, feature, tips, etc.
 
 Let's start with Microchip, Microchip has lots of good documentation, lots of good PDFs that explain lots of features of the chip, include some code example for AVRstudio. 
@@ -18,23 +20,25 @@ The megaTinyCore Github has also some interesting information about the tinyAVR 
 
 ## How to program tinyAVR?
 We have couple of option to program the TinyPower Board
-- USB-to-Serial : 
+- USB-to-Serial
 - Arduino with UPDI sketch : https://github.com/ElTangas/jtag2updi + avrdude
-- ARV ICE programmer
-- pyupdi with USB-to-Serial
+- Microchip ICEII programmer
+- pyupdi with USB-to-Serial converter
 
 
-## How to program the fuses
-With AVRdude or pyipdi you can program the fuses
-- This is example command for avrdude: -Ufuse2:w:0x02:m 
+### How to program the fuses 
+You can use AVRdude or pyupdi to program the fuses. However, most older avrdude GUIs do not have support for avrTiny fuses, so you will need to utilize the command line to program the fuses.
 
-## Reset the fuses with 12v programmer
+### Reset the fuses with 12v programmer
 If you lock yourself out after wrong fuse settings it's possible to reset the tinyavr with 12v and high voltage programmer protocol. 
 Here are some link that can help you reset you TinyPower board. 
 
 - TinyHVSP programmer https://github.com/wagiminator/ATtiny84-TinyHVSP
 - UPDI HV programmer https://github.com/wagiminator/AVR-Programmer/tree/master/UPDI_HV_Programmer
 
+## V-USB (software USB) circuit information
+
+If V-USB circuit is present but there is no vusb firmware the pc will see that usb is connected but will give an error, that is normal, that is what suppose to happen. Mean that circuit works correct. USB low speed is recognized but PC don't get response back because there is no firmware. Just ignore it when you use tinypower board it for something else when powering thought the USB port.
 
 ## How to install or deinstall the PCB on breadboard?
 Push only on the sides of the PDB, and try to avoid excessive presure on the USB port and switch.
@@ -45,7 +49,7 @@ But watchout that you don't break components on the other side with big screwdri
 ![App Screenshot](https://i.postimg.cc/W1YQJ3jg/pull-pcb-out1.jpg)
 
 
-# Attiny1604 Specs
+### Attiny1604 Specs
 - 16KB Flash
 - 1KB Ram
 - 256B EEPROM
