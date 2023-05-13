@@ -9,7 +9,7 @@ Let's start with Microchip, Microchip has lots of good documentation, lots of go
 
 - https://www.microchip.com/en-us/product/ATTINY1604#document-table 
 
-But you can also use tinyAVR with aruido, can even install a bootloader if you like that. 
+But you can also use tinyAVR with arduino, you can even install a bootloader if you like to program the chip direct from the arduino IDE. 
 With megaTinycore you can add support for attiny1604 to Arduino and output HEX file that you can upload with one of the programming options. Or direct if you have installed an bootloader. 
 
 - https://github.com/SpenceKonde/megaTinyCore
