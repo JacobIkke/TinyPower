@@ -3,11 +3,11 @@
 
 Welcome to the Github page of TinyPower dev board. This page is dedicated to the development board designed for tinyAVR micro-controllers. You will find some resources, and I will provide detailed information about the TinyPower board itself, including its (relative) impressive feature set and specifications. 
 
-![App Screenshot](https://i.postimg.cc/W1YQJ3jg/pull-pcb-out1.jpg)
+![App Screenshot](https://i.postimg.cc/XYgpMDkg/full-populated-v1b-small.jpg)
 
-Most parts of this page are for people that don't know AVRs jet, if you are familiar with AVRs most of it you probably already know, but there is also some  info about the board, pin layout, feature, tips, etc.
+While the majority of the content on this page is intended for individuals who are not yet familiar with tinyAVRs, if you already have experience with AVRs outside Arduino, you may already be familiar with much of it. However, there is also additional information provided about the board, pin layout, features, tips, and more.
 
-Let's start with Microchip, Microchip has lots of good documentation, lots of good PDFs that explain lots of features of the chip, include some code example for AVRstudio. 
+Let's start with Microchip, Microchip has lots of good documentation about the attiny1604, lots of good PDFs that explain most of the features of the chip, include some C code example for AVRstudio. 
 
 - https://www.microchip.com/en-us/product/ATTINY1604#document-table 
 
