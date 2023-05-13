@@ -1,7 +1,7 @@
 
 # TinyPower dev board
 
-Welcome to the Github page of TinyPower dev board. This page is dedicated to the development board designed for tinyAVR micro-controllers. You will find some resources, and I will provide detailed information about the TinyPower board itself, including its (relative) impressive feature set and specifications. 
+Welcome to the Github page of TinyPower dev board. This page is dedicated to the  development board designed for tinyAVR micro-controllers. TinyPower is an minimalistic develeopment board with USB power, decoupling capcitors,  voltage regulator and V-USB circuit for software, and a PCB with all pins broken out. USB. You will find here some resources for tinyAVR, and I will provide information about the TinyPower board itself, including its (relative) impressive feature set and specifications. 
 
 ![App Screenshot](https://i.postimg.cc/XYgpMDkg/full-populated-v1b-small.jpg)
 
