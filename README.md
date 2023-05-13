@@ -44,7 +44,10 @@ Here are some link that can help you reset you TinyPower board.
 
 If V-USB circuit is present but there is no vusb firmware the pc will see that usb is connected but will give an error, that is normal, that is what suppose to happen. Mean that circuit works correct. USB low speed is recognized but PC don't get response back because there is no firmware. Just ignore it when you use tinypower board it for something else when powering thought the USB port.
 
-## How to install or deinstall the PCB on breadboard?
+Waveform of V-USB circuit, D- and D+ <br>
+![App Screenshot](https://i.postimg.cc/hvK2gjHZ/usb-sync-signal-from-PC-to-device3-SOF.jpg)
+
+## How to install or remove the TinyPower board from a breadboard?
 Push only on the sides of the PDB, and try to avoid excessive presure on the USB port and switch.
 ![App Screenshot](https://i.postimg.cc/4xxDdtCX/push-pcb-in1.jpg)
 
