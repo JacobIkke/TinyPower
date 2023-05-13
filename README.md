@@ -26,7 +26,7 @@ We have couple of option to program the TinyPower Board
 
 ## How to program the fuses
 With AVRdude or pyipdi you can program the fuses
-This is example command for avrdude: -Ufuse2:w:0x02:m 
+- This is example command for avrdude: -Ufuse2:w:0x02:m 
 
 ## Reset the fuses with 12v programmer
 If you lock yourself out after wrong fuse settings it's possible to reset the tinyavr with 12v and high voltage programmer protocol. 
