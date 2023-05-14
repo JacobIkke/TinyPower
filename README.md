@@ -1,7 +1,7 @@
 
 # TinyPower dev board
 
-Welcome to the Github page of TinyPower dev board. This page is dedicated to the  development board designed for tinyAVR micro-controllers. TinyPower is an minimalistic development board with micro USB power connector, decoupling capcitors,  voltage regulator and V-USB circuit for software USB. The PCB with all pins of Attiny1604 broken out, include the USB pins. You will find in the repo some resources for tinyAVR, and I will provide information about the TinyPower board itself, including its (relative) impressive feature set and specifications. 
+Welcome to the Github page of the TinyPower dev board. This page is dedicated to the development board designed for tinyAVR micro-controllers. TinyPower is an minimalistic development board with micro USB power connector, voltage regulator, decoupling capcitors, and V-USB circuit for software USB. The PCB has all pins of Attiny1604 broken out, include the USB pins. You will find in this repo some resources for TinyPower board, and I will provide information about the TinyPower board itself, including its (relative) impressive feature set and specifications. 
 
 ![pcb_front_back](https://i.postimg.cc/XYgpMDkg/full-populated-v1b-small.jpg)
 
@@ -18,16 +18,16 @@ With megaTinycore you can add support for attiny1604 to Arduino and output HEX f
 
 The megaTinyCore Github has also some interesting information about the tinyAVR series. 
 
-## How to program TinyPower Board?
+## How to program the TinyPower Board?
 We have couple of option to program the TinyPower Board
-- USB-to-Serial
 - Arduino with UPDI sketch : https://github.com/ElTangas/jtag2updi + avrdude
+- USB-to-Serial with bootloader(optiboot, etc)
 - Microchip ICEII programmer
 - pyupdi with USB-to-Serial converter
 
-Need only two wires, GND and UPDI data wire. 
-- You need to connect GND of the programer to GND of the TinyPower board
-- And connect updi program pin to PA0 of the TinyPower board. 
+You only need two wires, GND and the UPDI data wire. 
+- You need to connect GND of the programer to one of the GND of the TinyPower board
+- And connect updi data pin to PA0 of the TinyPower board. 
 
 
 ### How to program the fuses 
