@@ -76,6 +76,7 @@ But watchout that you don't break components on the other side with big screwdri
 - External interrupt on ALL general-purpose pins(falling edge, raising edge, both edges)
 
 ## Compare the Attiny1604(tinyAVR) vs Attiny84 (classic attiny)
+The Attny84 can be seen as a predecessor to the attiny1604, so lets compare those two. 
 [![at1604-vs-at84-2s.jpg](https://i.postimg.cc/BZBHVCdH/at1604-vs-at84-2s.jpg)](https://postimg.cc/yWWDJ068)
 
 ## TinyPower Layout R1
