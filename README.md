@@ -7,9 +7,10 @@ Welcome to the Github page of the TinyPower dev board. This page is dedicated to
 
 While the majority of the content on this page is intended for individuals who are not yet familiar with tinyAVRs, if you already have experience with AVRs outside Arduino, you may already be familiar with much of it. However, there is also additional information provided about the board, pin layout, features, tips, and more.
 
-Let's start with Microchip, Microchip has lots of good documentation about the attiny1604, lots of good PDFs that explain most of the features of the chip, include some C code example for AVRstudio. 
+To begin, Microchip provides extensive documentation on the attiny1604 microcontroller, offering numerous helpful PDFs that comprehensively explain its features. These resources often include informative code examples written in C for AVRstudio. Another valuable resource is the Atmel START code generator, which not only provides example code but also serves as an excellent starting point for new projects by offering initial code for the desired peripherals you intend to utilize. Utilizing these resources from Microchip and Atmel START can greatly aid in understanding the attiny1604 and facilitate the development process.
 
 - https://www.microchip.com/en-us/product/ATTINY1604#document-table 
+- https://start.atmel.com/
 
 It's possible to use the TinyPower board with arduino IDE, you can install a bootloader if you like to program the chip direct from the arduino IDE. 
 With megaTinycore you can add support for attiny1604 to Arduino and output HEX file that you can upload with one of the programming options. Or direct from the IDE if you have an bootloader installed. 
