@@ -3,7 +3,7 @@
 
 Welcome to the Github page of TinyPower dev board. This page is dedicated to the  development board designed for tinyAVR micro-controllers. TinyPower is an minimalistic development board with micro USB power connector, decoupling capcitors,  voltage regulator and V-USB circuit for software USB. The PCB with all pins of Attiny1604 broken out, include the USB pins. You will find in the repo some resources for tinyAVR, and I will provide information about the TinyPower board itself, including its (relative) impressive feature set and specifications. 
 
-![App Screenshot](https://i.postimg.cc/XYgpMDkg/full-populated-v1b-small.jpg)
+![pcb_front_back](https://i.postimg.cc/XYgpMDkg/full-populated-v1b-small.jpg)
 
 While the majority of the content on this page is intended for individuals who are not yet familiar with tinyAVRs, if you already have experience with AVRs outside Arduino, you may already be familiar with much of it. However, there is also additional information provided about the board, pin layout, features, tips, and more.
 
@@ -45,15 +45,15 @@ Here are some link that can help you reset you TinyPower board.
 If V-USB circuit is present but there is no vusb firmware the pc will see that usb is connected but will give an error, that is normal, that is what suppose to happen. Mean that circuit works correct. USB low speed is recognized but PC don't get response back because there is no firmware. Just ignore it when you use tinypower board it for something else when powering thought the USB port.
 
 Waveform of V-USB circuit, D- and D+ <br>
-![App Screenshot](https://i.postimg.cc/hvK2gjHZ/usb-sync-signal-from-PC-to-device3-SOF.jpg)
+![USB_waveform](https://i.postimg.cc/hvK2gjHZ/usb-sync-signal-from-PC-to-device3-SOF.jpg)
 
 ## How to install or remove the TinyPower board from a breadboard?
 Push only on the sides of the PDB, and try to avoid excessive presure on the USB port and switch.
-![App Screenshot](https://i.postimg.cc/4xxDdtCX/push-pcb-in1.jpg)
+![push-pcb-in1](https://i.postimg.cc/4xxDdtCX/push-pcb-in1.jpg)
 
 Same for deinstalling the PCB, try to avoid to pulling on the USB, try to grap the pcb on the sides or use someting to lift the pcb. 
 But watchout that you don't break components on the other side with big screwdriver or so. 
-![App Screenshot](https://i.postimg.cc/W1YQJ3jg/pull-pcb-out1.jpg)
+![pull-pcb-out1](https://i.postimg.cc/W1YQJ3jg/pull-pcb-out1.jpg)
 
 
 ### Attiny1604 Specs
@@ -74,6 +74,9 @@ But watchout that you don't break components on the other side with big screwdri
 - Hardware Event System with external input and output
 - Configurable Custom Logic (CCL) with two programmable look-up tables
 - External interrupt on ALL general-purpose pins(falling edge, raising edge, both edges)
+
+## Compare the Attiny1604(tinyAVR) vs Attiny84 (classic attiny)
+[![at1604-vs-at84.jpg](https://i.postimg.cc/L5gvmqgd/at1604-vs-at84.jpg)](https://postimg.cc/3072BxZ9)
 
 ## TinyPower Layout R1
 ![App Screenshot](https://i.postimg.cc/k58bzTJ4/Pin-layout-tinypower-v1-b.jpg)
