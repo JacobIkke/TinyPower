@@ -12,7 +12,7 @@ To begin, Microchip provides extensive documentation on the attiny1604 microcont
 - https://www.microchip.com/en-us/product/ATTINY1604#document-table 
 - https://start.atmel.com/
 
-Microchip also provide us with excellent IDE with a free C compiler, AVR Studio, and  7.0 is the latest version. 
+Microchip also provide us with excellent IDE with a free C compiler, AVR Studio, and  7.0 is the latest version.<br>
 Can download it from here: https://www.microchip.com/en-us/tools-resources/develop/microchip-studio
 
 It's possible to use the TinyPower board with arduino IDE, you can install a bootloader if you like to program the chip direct from the arduino IDE. 
