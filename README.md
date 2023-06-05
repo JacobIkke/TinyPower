@@ -81,7 +81,7 @@ But watchout that you don't break components on the other side with big screwdri
 
 ## Compare the Attiny1604(tinyAVR) vs Attiny84 (classic attiny)
 The Attny84 can be seen as a predecessor to the attiny1604, so lets compare those two. 
-[![at1604-vs-at84-2s.jpg](https://i.postimg.cc/BZBHVCdH/at1604-vs-at84-2s.jpg)](https://postimg.cc/yWWDJ068)
+[![at1604-vs-at84-2s.jpg](https://i.postimg.cc/BZBHVCdH/at1604-vs-at84-2s.jpg)](https://i.postimg.cc/BZBHVCdH/at1604-vs-at84-2s.jpg)
 
 ## TinyPower Layout R1
 ![App Screenshot](https://i.postimg.cc/k58bzTJ4/Pin-layout-tinypower-v1-b.jpg)
